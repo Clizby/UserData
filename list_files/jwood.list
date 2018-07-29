@@ -199,6 +199,10 @@ DC DC295 I-295/695 DC/MD
 DC I-395 VA/DC 7
 DC I-695 I-395 2A
 DC US1 VA/DC US50_W
+ 
+DE I-95 4A DE/PA # May have started pior to 4A - Unsure of connection point with 301
+DE US301 MD/DE US40
+
 
 FL FL173 FL297 FL292
 FL FL292 FL173 AL/FL
@@ -419,6 +423,8 @@ NH NH124 US202_W DubRd
 NH NH286 NH1A MA/NH
 NH US3 Eve(7) Eve(2)
 NH US202 MA/NH NH101_W
+
+NJ I-676 NJ/PA 5B # GPS had us cross bridge for no reason
 
 NM I-10 AZ/NM 139
 NM I-25 226 242
@@ -658,6 +664,8 @@ OK US66HisTul 51stSt US169
 OR US101 OR/WA CA/OR
 
 PA I-90 PA/NY OH/PA
+PA I-95 DE/PA PA/NJ
+PA I-676 5thSt PA/NJ # GPS had us cross bridge for no reason
 
 SC I-85 GA/SC SC/NC
 SC US29 I-85(34) I-85(42)
