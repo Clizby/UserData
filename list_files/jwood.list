@@ -948,3 +948,13 @@ WY WY230Riv WY/CO I-80(235)
 WY WY530 WY/UT I-80BL
 WY WY585 I-90 US85
 WY WY789 US287Byp US16_E
+
+ZMB T1 ZMB/ZWE T2 # Victoria falls to  T2 (Kafue)
+ZMB TAH4 ZMB/ZWE T4 # Victoria Falls to Lusaka (mostly concurrent with above)
+ZMB RTR15 ZMB/ZWE T4 # Victoria Falls to Lusaka (mostly concurrent with above)
+ZMB T2 T4 M15 # Lusaka to Siavonga turn off 
+ZMB TAH9 T4 M15 # Lusaka to Siavonga turn off (concurrent with above)
+ZMB RTR22 T1 M15 # Kafue to Siavonga turn off (mostly concurrent with above)
+ZMB M15 T4 ZMB/ZWE # T4 to Siavonga (Zimbabwe Border)
+ZMB T4 T2 ZMB/MWI # Lusaka to Chipata (Malawi Border)
+ZMB RTR20 T2/M9 ZMB/MWI # Lusaka to Chipata (Malawi Border) (concurrent with above)
