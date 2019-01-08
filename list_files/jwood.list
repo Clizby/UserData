@@ -950,11 +950,15 @@ WY WY585 I-90 US85
 WY WY789 US287Byp US16_E
 
 ZMB T1 ZMB/ZWE T2 # Victoria falls to  T2 (Kafue)
-ZMB TAH4 ZMB/ZWE T4 # Victoria Falls to Lusaka (mostly concurrent with above)
-ZMB RTR15 ZMB/ZWE T4 # Victoria Falls to Lusaka (mostly concurrent with above)
 ZMB T2 T4 M15 # Lusaka to Siavonga turn off 
-ZMB TAH9 T4 M15 # Lusaka to Siavonga turn off (concurrent with above)
-ZMB RTR22 T1 M15 # Kafue to Siavonga turn off (mostly concurrent with above)
 ZMB M15 T4 ZMB/ZWE # T4 to Siavonga (Zimbabwe Border)
 ZMB T4 T2 ZMB/MWI # Lusaka to Chipata (Malawi Border)
-ZMB RTR20 T2/M9 ZMB/MWI # Lusaka to Chipata (Malawi Border) (concurrent with above)
+ZMB M10 Ses T1 # Shesheke to Lstone (T1)
+
+ZWE A1 ZWE/ZMB A3/A5 # Siavonga to Harare
+ZWE A3 A1/A5 A9 # Harare to Mutare
+ZWE A9 A3 A6 # Mutare to south of Bulawayo
+ZWE A6 A9 A7 # South of Bulawayo to Downtown Bulawayo
+ZWE A7 A6 A5/A8
+ZWE A8 A5/A7 ZWE/ZMB # Bulawayo to Vic Falls
+ZWE A4 A9_W Mor # Masvingo to Great Zimbabwe turn off
